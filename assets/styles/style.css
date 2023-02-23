@@ -84,9 +84,10 @@ section{
 }
 
 .building-imgs img{
-    width: 219px;
-    height: 219px;
-    object-fit: cover;
+    
+    max-width: 219px;
+    width: 100%;
+
 }
 
 .txt{
@@ -105,9 +106,12 @@ section{
 
 
 .info{
-    margin-top: 58px;
-    margin-left: 449px;
-    padding:auto ;
+    display: flex;
+    justify-content: center;
+
+}
+.btn{
+
     width: 341px;
     height: 55px;
     border: none;
